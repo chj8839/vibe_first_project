@@ -137,4 +137,4 @@ python -m streamlit run app.py
 
 ## 라이선스
 
-이 프로젝트는 자유롭게 사용 및 수정할 수 있습니다.
+이 프로젝트는 [MIT License](LICENSE) 하에 배포됩니다.
