@@ -3,6 +3,8 @@
 Streamlit으로 만든 간단한 웹 기반 숫자 맞추기 게임입니다.  
 1부터 100까지의 랜덤 숫자를 맞추며, 힌트와 시도 기록을 통해 게임을 즐길 수 있습니다.
 
+**GitHub:** https://github.com/chj8839/vibe_first_project
+
 ## 프로젝트 소개
 
 컴퓨터가 1~100 사이의 숫자를 무작위로 선택하고, 사용자는 최대 10번의 기회 안에 정답을 맞추는 게임입니다.
@@ -31,16 +33,26 @@ Streamlit으로 만든 간단한 웹 기반 숫자 맞추기 게임입니다.
 
 ```
 vibe_first_project/
-├── app.py              # Streamlit 게임 애플리케이션
-├── requirements.txt    # Python 의존성 목록
-└── README.md           # 프로젝트 설명 문서
+├── app.py                          # Streamlit 게임 애플리케이션
+├── requirements.txt                # Python 의존성 목록
+├── README.md                       # 프로젝트 설명 문서
+├── LICENSE                         # MIT 라이선스
+├── CODE_OF_CONDUCT.md              # 행동 강령
+├── CONTRIBUTING.md                 # 기여 가이드
+├── SECURITY.md                     # 보안 정책
+├── .gitignore                      # Git 제외 파일 설정
+└── .github/
+    ├── pull_request_template.md    # Pull Request 템플릿
+    └── ISSUE_TEMPLATE/
+        ├── bug_report.yml          # 버그 리포트 템플릿
+        └── feature_request.yml     # 기능 요청 템플릿
 ```
 
 ## 설치 방법
 
 ### 1. 저장소 클론
 
-```bash
+```powershell
 git clone https://github.com/chj8839/vibe_first_project.git
 cd vibe_first_project
 ```
@@ -125,10 +137,23 @@ python -c "import struct; print(struct.calcsize('P') * 8, 'bit')"
 4. 프로젝트 폴더에서 다시 설치 및 실행
 
 ```powershell
-cd C:\project\vibe_first_project
+cd vibe_first_project
 python -m pip install -r requirements.txt
 python -m streamlit run app.py
 ```
+
+## 기여하기
+
+버그 제보, 기능 제안, 코드 기여를 환영합니다.
+
+- [기여 가이드](CONTRIBUTING.md)
+- [행동 강령](CODE_OF_CONDUCT.md)
+- [Issues](https://github.com/chj8839/vibe_first_project/issues) — 버그 리포트 / 기능 요청
+- [Pull Requests](https://github.com/chj8839/vibe_first_project/pulls) — 코드 기여
+
+## 보안
+
+보안 취약점은 공개 Issues가 아닌 [SECURITY.md](SECURITY.md)에 안내된 방법으로 비공개 보고해 주세요.
 
 ## 기술 스택
 
